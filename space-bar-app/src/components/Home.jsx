@@ -3,7 +3,7 @@ import React from 'react'
 
 function Home (props) {
     return(
-        <h1>Hello this is home</h1>
+        <h1 data-testid="cypress-home-title">Hello this is home</h1>
 
     )
 }
